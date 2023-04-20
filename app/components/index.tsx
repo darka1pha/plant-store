@@ -1,0 +1,6 @@
+export { default as Menu } from './Menu'
+export { default as Header } from './Header'
+export { default as Dream } from './Dream'
+export { default as About } from './About'
+export { default as ItemsCard } from './ItemsCard'
+export { default as CartDetails } from './CartDetails'
