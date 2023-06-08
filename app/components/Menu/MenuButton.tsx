@@ -1,6 +1,5 @@
 'use client'
 
-import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { forwardRef } from 'react'
 
@@ -30,5 +29,7 @@ const MenuButton = forwardRef<HTMLButtonElement | null, MenuButtonProps>(
 		)
 	}
 )
+
+MenuButton.displayName = 'MenuButton'
 
 export default MenuButton
