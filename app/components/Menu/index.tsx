@@ -2,9 +2,9 @@
 import { Home, Truck, Gift, Shop, ShoppingCart } from 'iconsax-react'
 import MenuButton from './MenuButton'
 import React, { useEffect, useRef, useState } from 'react'
-import Indicator from './indicator'
 import { useRouter } from 'next/navigation'
 import Image from 'next/image'
+import Indicator from './Indicator'
 
 const buttons = [
 	{
